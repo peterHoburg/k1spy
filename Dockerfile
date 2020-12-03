@@ -1,0 +1,5 @@
+FROM python@sha256:589cc12df79de86631d447e09bf131791c661814ee3e235eaa81389f0778d6a0
+
+WORKDIR /opt
+
+COPY . /opt
